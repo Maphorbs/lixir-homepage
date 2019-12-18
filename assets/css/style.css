@@ -1,0 +1,311 @@
+@media only screen and (min-width: 961px){
+html{
+font-family:'Poppins', Courier, monospace;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a:link{
+  text-decoration: none;
+   color: inherit;
+  cursor:pointer;
+  }
+
+body{
+    background: #ffffff ;
+    background-size:100%;
+    width:100%;
+    height:100%;
+    }
+
+    p,h1,h2,h3,h4,h5,h6{
+        padding:0px;
+        margin:0px;
+        font-family:'Poppins', Courier, monospace;
+     }
+
+    .headerContainer{
+        display:flex;
+        flex-wrap: wrap; 
+        padding: bottom 2.1em ;
+        overflow:hidden; 
+    }
+    .header{
+        padding: 0.5em 1em 0 0em;
+        flex: 1;
+        justify-content:center;
+        align-items: center;
+        text-align: center;  
+    }
+    .header:first-child{
+        padding-right:30em;
+    }
+    .headerContainer .icon {
+        display: none;
+      }
+       
+    .header2{
+        background-image:url("images/headerImage.png") ;
+        background-repeat: no-repeat;
+        background-position:right;
+        background-size:cover,contain;
+        height: 500px; 
+        padding-bottom: 5em;
+    }
+    .textInHeader{
+        padding:1em 0 0 4em;  
+    }
+    
+    .header3{
+        padding-top: 20em;
+        text-align:center;
+    }
+
+    .ourFeature{
+        text-align:center;
+        font-family: 'poppins';
+        line-height: 140.62%;
+        font-size: 48px;
+        font-weight: bold;
+    }
+   
+    .section1-container{
+        cursor:pointer;
+        display:flex;
+        padding-bottom:0.1em ;
+        border-radius: 20px;
+		box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px inset;
+       }
+
+    .eachImage{
+        flex: 1;
+        padding: 5em;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 20px;
+    }
+    .than{
+        padding-top:10em;
+    }
+
+    .logo{
+        border-radius: 0; 
+    }
+    .contactus{
+        text-align:center;
+    }
+   .text{
+        font-weight: bolder;
+    }
+    
+    
+    .section2{
+        background-image:url("images/background.png") ;
+        background-repeat: no-repeat;
+        background-color:#0580B9;
+        background-size:cover,contain;
+        height: 400px;
+    }
+
+    .form{
+        padding:2.5em 2em 2em 60em; 
+    }
+  
+    
+        .card {
+            -webkit-box-shadow: 3px 3px 5px 6px rgba(0,0,0,0.2);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+           -moz-box-shadow:    3px 3px 5px 6px rgba(0,0,0,0.2);  /* Firefox 3.5 - 3.6 */
+             box-shadow:         3px 3px 5px 6px rgba(0,0,0,0.2); 
+            transition: 0.3s;
+            width: 100%;
+            height: 22em;
+            border-radius: 5px;
+            background: #fff;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top:0.2em;
+        }
+          
+          .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+          }
+          #button{
+            background: #0580B9;
+            color:#fff;
+            box-sizing: border-box;
+            text-align: center;
+            justify-content: center;
+            font-size: 1em;
+            border-radius: 5px;
+            text-align:center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+			justify-content: flex-start;
+			transform: translate(0px, -2px);
+            width: 67%;
+            height: 10%;
+            left: 33.796%;
+			right: 30.9507%;
+			top: 80.5%;
+			bottom: 8.87%;
+            color:#fff;
+            font-weight: bold;
+            border-color:#0580B9 ;
+          }
+          
+          .button{
+                background: #0580B9;
+                color:#fff;
+                box-sizing: border-box;
+                justify-content: center;
+                text-align: center;
+                font-size: 1em;
+                border-radius: 8px;
+                display: block;
+                width: 14%;
+                color:#fff;
+                font-weight: bold;
+                border-color:#0580B9 ;
+              }
+
+        input{
+         text-align: start;
+        border-style: groove;
+        border:1px solid #000000;
+        border-radius:3px;
+        box-sizing:border-box;
+        justify-content: center;
+        
+    }
+    .elements{
+        padding:0.1em 5em 1em 56em;
+        text-align: center;
+    }
+   
+    .icons{
+        text-align: center;
+        color:#333;
+    }
+    
+    .footer{
+        text-align: center;
+        padding-top:70px;
+    }
+}
+
+    @media only screen and (min-width: 401px) and (max-width: 960px){
+        
+        body{
+            overflow-x: hidden;
+        }
+        .textInHeader{
+            padding:33em 0 15em 10em;  
+        }
+        .header2{
+            background-image:url("images/headerImage.png") ;
+            background-repeat: no-repeat;
+            background-size:contain;
+            padding: 1em 0 0 3em;
+        }
+      
+        .textInHeader{
+            padding:22em 0 0 8em;  
+        }
+        .button{
+            width:13em;
+        }
+        .header3{
+            padding: 1em 0 0 0;
+            text-align:center;
+        }
+        .ourFeature{
+            text-align:center;
+            font-family: 'poppins';
+            line-height: 100.62%;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .section1Container{
+            flex-direction: row;
+        }
+        .eachImage{
+       
+        flex: 100%;
+        max-width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       list-style: none;
+        }
+        
+        .headerContainer{
+            background: #e8e8e8 ;  
+        }
+        
+        .form{
+            padding:2.5em 2em 2em 2em; 
+        }
+        .section2{
+            background-image:url("images/background.png") ;
+            background-repeat: no-repeat;
+            background-size:cover,contain;
+            background-color:#0580B9;
+           
+        }
+        
+          
+    }
+
+  
+    @media only screen and (min-width: 1px) and (min-width: 400px) {
+        body{
+            overflow-x: hidden;
+        }
+        .textInHeader{
+            padding:30em 0 5em 10em;  
+        }
+      .header2{
+        background-image:url("images/headerImage.png");
+        background-repeat: no-repeat;
+        background-size: contain;   
+    }
+
+    .form{
+        padding:2.5em 2em 2em 2em; 
+    }
+    .button{
+        width:13em;
+    }
+    .header3{
+        padding: 1em 0 0 0;
+        text-align:center;
+    }
+    .ourFeature{
+        text-align:center;
+        font-family: 'poppins';
+        line-height: 100.62%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .section1Container{
+        display: block;
+    }
+    .eachImage{
+        display:block;
+        max-width: 100%;
+       list-style: none;
+      }
+
+    .headerContainer{
+        background: #e8e8e8 ;  
+    }
+  .section2{
+    background-image:url("images/background.png") ;
+            background-repeat: no-repeat;
+            background-size:contain,cover;
+            background-color:#0580B9;
+  }
+}

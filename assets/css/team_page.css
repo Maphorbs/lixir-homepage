@@ -1,0 +1,48 @@
+* {
+  margin-top: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+.team-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+}
+
+.card{
+    border: 0;
+}
+
+.card-title{
+    font-size: 30px;
+    line-height: 140.62%;
+}
+
+.card-text{
+    font-size: 20px;
+    line-height: 140.62%;
+
+}
+
+#viewMoreButton{
+    color:#29419b ;
+    background: #cecece;
+    border-radius: 0;
+    border: 0;
+}
+
+#viewMoreButton:hover{
+    color:#cecece;
+    background: #29419b;
+}
+
+li{
+    border-radius: 25px;
+}
+
+.content {
+    position: relative;
+    z-index: -10;
+}

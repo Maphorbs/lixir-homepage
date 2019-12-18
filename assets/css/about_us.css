@@ -1,0 +1,157 @@
+body{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    
+}
+
+.about{
+    background: #0580B9;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profile{
+    color: #353535;
+    text-align: center;
+}
+
+.line{
+    width:5%;
+    margin-top: 5px;
+}
+
+.para{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    font-weight: 500;
+    line-height: 2rem;
+    padding-bottom: 20px;
+}
+
+.section{
+    background: #EDEDED;
+    text-align: center;
+}
+
+.take{
+    padding-top: 20px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+button{
+    background: #0580B9;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    transition: 0.3s ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.ready{
+    font-size: 20px;
+}
+
+button:hover{
+    border: 1px solid #353535;
+    color: #353535;
+    background: white;
+    font-weight: bold;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+
+
+
+.services{
+    background: #0580B9;
+    text-align: center;
+    
+}
+
+.services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2.5px solid #ffffff;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.service{
+    color: #ffffff;
+    display: inline-block;
+    width: calc(100% / 2);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+    text-align: left;
+}
+
+.service:hover{
+    background: #05638e;
+}
+
+img{
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.rule{
+    width: 50%;
+    margin: 0;
+}
+
+.title{
+    width: 10%;
+    margin: 0;
+}
+
+span{
+    display: hidden;
+}
+
+
+@media screen and (max-width: 800px) {
+    .service{
+        width: 100%;
+    }
+}
+
+.content {
+    position: relative;
+    z-index: -10;
+}
