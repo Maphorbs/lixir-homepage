@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Request Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/project_request.css">
+</head>
+<body>
+    <main>
+        <section class="form_container">
+            <h3 class="title">Project Request Form</h3>
+            <form action="">
+                <div class="form_group">
+                    <label for="p_info">General Project Information</label>
+                    <input type="text" placeholder="Project Name" >
+                    <input type="text" placeholder="Project Duration" >
+                    <input type="text" placeholder="Requested By" >
+                </div>
+                <div class="form_group">
+                    <label for="c_info">Customer Information</label>
+                    <input type="text" placeholder="Customer Name"><input type="text" placeholder="Organization Name">
+                </div>
+                <div class="form_group">
+                    <label for="project_scope">Project Scope</label>
+                    <textarea name="scope" id="p_scope" placeholder="Project Description" cols="30" rows="5"></textarea>
+                    <input type="text" placeholder="Project High-Level Objectives"><input type="text" placeholder="Project Low-Level Objectives">
+                </div>
+                <div class="form_group">
+                    <input type="button" value="Attach File" id="attachFile" class="btn">
+                    <input type="file" name="file" id="file">
+                </div>
+
+                <input type="submit" value="Submit" class="btn"> <br>
+                <input type="reset" value="Reset Form" class="reset">
+            </form>
+        </section>
+    </main>
+</body>
+
+<script>
+    let attachFile = document.getElementById("attachFile");
+    let fileInput = document.getElementById("file");
+    attachFile.addEventListener("click", ()=>{fileInput.style.visibility = "visible"})
+</script>
+</html>

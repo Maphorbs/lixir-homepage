@@ -1,2 +1,3 @@
-# lixir-homepage
-The home page for the site
+# lit-page
+
+Make contact us and project request send details to lixir email.
